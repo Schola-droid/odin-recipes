@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Lasagna Recipe</h1>
     <img src="https://static01.nyt.com/images/2023/08/31/multimedia/RS-Lasagna-hkjl/RS-Lasagna-hkjl-superJumbo.jpg" alt="An image of tasty Lasagna" height="310" width="310">
-    <h2>Tasty Lasagna</h2>
-    <p>Indulge in the savory layers of a tantalizing lasagna that promises a burst of flavors with every bite. Begin with a
+    <div class="container">
+    <!-- <h2>Tasty Lasagna</h2> -->
+    <p class="info">Indulge in the savory layers of a tantalizing lasagna that promises a burst of flavors with every bite. Begin with a
     robust meat sauce, featuring a harmonious blend of finely sautéed onions and garlic, perfectly browned ground beef, and
     a symphony of crushed tomatoes, tomato paste, dried basil, oregano, salt, and pepper. This delectable concoction simmers
     to perfection, allowing the richness of the ingredients to meld into a savory masterpiece. Meanwhile, a velvety filling
@@ -19,9 +21,11 @@
     crescendo in the oven, this mouthwatering lasagna emerges with a golden crust and a tantalizing aroma, promising a
     symphony of textures and tastes that captivate the senses. Each slice is a journey through the comfort of rich, savory,
     and satisfying layers, making this lasagna an irresistible delight for the discerning palate.</p>
+    </div>
 
-    <h3>Ingredients</h3>
-    <ul>
+    <div class="dropdown-container">
+        <h3 class="ingredients-title">Ingredients</h3>
+    <ul class="dropdown-ingredients">
         <li>Lasagna noodles</li>
         <li>Ground beef</li>
         <li>Onion, finely chopped</li>
@@ -37,6 +41,7 @@
         <li>Fresh parsley, chopped</li>
         <li>Mozzarella cheese, shredded</li>
     </ul>
+    </div>
 
     <h4>Steps</h4>
     <ol>
@@ -47,6 +52,9 @@
         <li>Bake in the Oven</li>
         <li>Serve and Enjoy</li> 
     </ol>
+
+    <script src="script.js"></script>
     
+
 </body>
 </html>

@@ -1,0 +1,59 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:pink;
+}
+
+
+.container {
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    right: 400px;
+    top: 30px;
+    left: 200px;
+    
+}
+
+.info {
+    /* border: 1px solid #eee; */
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px;
+    width: 800px;
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+}
+
+.dropdown-container {
+    max-width: 250px;
+    margin: 40px auto;
+    /* text-align: ; */
+    line-height: 50px;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    
+    
+}
+.dropdown-ingredients {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(99, 97, 97);
+
+    display: none;
+    font-weight: 800;
+}
+
+ul.dropdown-ingredients li:hover {
+    background: rgb(47, 46, 46);
+}
+
+.visible {
+    display: block;
+}
